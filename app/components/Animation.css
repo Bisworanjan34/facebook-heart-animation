@@ -1,0 +1,45 @@
+.container{
+    background-image: url('https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/653c5395a20cd20e8f4fb7b5_Freelance%20Software%20Developer%20Everything%20You%20Need%20To%20Know.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-in-out;
+}
+.active .container{
+    background-image: url('https://m.media-amazon.com/images/I/71HRPkQSZKL._AC_UF1000,1000_QL80_.jpg');
+    background-size: cover;
+   
+}
+
+.active .heart-click{
+    color: rgb(255, 2, 137);
+}
+.heart-click{
+    transition: 0.1s ease;
+    /* font-size: 20px; */
+}
+.user{
+    transition: 0.1s ease;
+    /* font-size: 20px; */
+}
+.box p{
+    font-size: 10px;
+}
+.heart-click:active{
+    transform: scale(0.9);
+}
+.heart-show{   
+  visibility: hidden;
+}
+.active .heart-show{
+    /* display: block; */
+    /* visibility: visible; */
+    animation: anim 0.8s 1  linear ;
+}
+@keyframes anim{
+    0%{
+        transform: scale(1);
+    }
+    50%{transform: scale(2.3);visibility: visible;color: rgb(255, 255, 255);
+    }
+    100%{transform: scale(1);visibility: hidden;}
+}
