@@ -1,5 +1,5 @@
 "use client"
-import { faHeart, faThumbsUp, faUserCircle } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faUserCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useRef, useState } from 'react'
 import './Animation.css'
